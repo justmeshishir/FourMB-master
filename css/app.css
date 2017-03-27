@@ -334,6 +334,26 @@ a:hover {
     display: inline-block;
 }
 
+.section--services .fa {
+    padding: 30px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+    transform: scale(1.5,1);
+}
+
+
+.section--services .grid__cell h3
+{
+    color: #b42b2b;
+}
+
+.section--services .grid__cell .fa:hover
+{
+    background-color: #ffffff;
+    color: #b42b2b;
+    transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
 @media only screen and (min-width: 760px) {
     .wrapper {
         padding: 0;
